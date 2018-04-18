@@ -1,0 +1,38 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: WindowFinder - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/resource.res" /d "NDEBUG" "C:\Code\WindowFinder\resource.rc"" 
+Creating temporary file "C:\Users\ZhanYue\AppData\Local\Temp\RSP936.tmp" with contents
+[
+/nologo /ML /W3 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/WindowFinder.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Code\WindowFinder\main.cpp"
+"C:\Code\WindowFinder\WindowFinder.cpp"
+]
+Creating command line "cl.exe @C:\Users\ZhanYue\AppData\Local\Temp\RSP936.tmp" 
+Creating temporary file "C:\Users\ZhanYue\AppData\Local\Temp\RSP937.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/WindowFinder.pdb" /machine:I386 /out:"Release/WindowFinder.exe" 
+.\Release\main.obj
+.\Release\WindowFinder.obj
+.\Release\resource.res
+]
+Creating command line "link.exe @C:\Users\ZhanYue\AppData\Local\Temp\RSP937.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+main.cpp
+WindowFinder.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+WindowFinder.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

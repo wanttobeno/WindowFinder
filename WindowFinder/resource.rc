@@ -1,0 +1,143 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR_SEARCH_WINDOW CURSOR  DISCARDABLE     "searchw.cur"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_MAIN MENU DISCARDABLE 
+BEGIN
+    POPUP "S&earch"
+    BEGIN
+        MENUITEM "&Find Window",                IDM_FIND_WINDOW
+        MENUITEM "E&xit",                       IDM_EXIT
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About",                      IDM_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_SEARCH_WINDOW DIALOG DISCARDABLE  0, 0, 222, 204
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Search Window"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,165,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,165,24,50,14
+    LTEXT           "Search for a window by pressing the left-mouse button on the Finder Tool and then dragging it over a window and then releasing the mouse button to select the window.",
+                    IDC_STATIC,7,7,152,39,SS_SUNKEN
+    LTEXT           "X Pos",IDC_STATIC,7,90,32,15
+    LTEXT           "Y Pos",IDC_STATIC,7,110,32,15
+    LTEXT           "",IDC_STATIC_X_POS,45,90,46,14
+    LTEXT           "",IDC_STATIC_Y_POS,45,110,46,14
+    EDITTEXT        IDC_EDIT_STATUS,7,130,208,67,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         107,IDC_STATIC_ICON_FINDER_TOOL,"Static",SS_BITMAP | 
+                    SS_NOTIFY,93,56,20,20
+    LTEXT           "Finder Tool :",IDC_STATIC,7,56,64,13
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG_SEARCH_WINDOW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 215
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 197
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_FINDER_EMPTY BITMAP  DISCARDABLE     "findere.bmp"
+IDB_BITMAP_FINDER_FILLED BITMAP  DISCARDABLE     "finderf.bmp"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
